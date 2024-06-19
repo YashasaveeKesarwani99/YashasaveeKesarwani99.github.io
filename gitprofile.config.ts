@@ -2,21 +2,21 @@
 
 const CONFIG = {
   github: {
-    username: 'arifszn', // Your GitHub org/user name. (This is the only required config)
+    username: 'YashasaveeKesarwani99', // Your GitHub org/user name. (This is the only required config)
   },
   /**
    * If you are deploying to https://<USERNAME>.github.io/, for example your repository is at https://github.com/arifszn/arifszn.github.io, set base to '/'.
    * If you are deploying to https://<USERNAME>.github.io/<REPO_NAME>/,
    * for example your repository is at https://github.com/arifszn/portfolio, then set base to '/portfolio/'.
    */
-  base: '/gitprofile/',
+  base: '/',
   projects: {
     github: {
       display: true, // Display GitHub projects?
       header: 'Github Projects',
-      mode: 'automatic', // Mode can be: 'automatic' or 'manual'
+      mode: 'manual', // Mode can be: 'automatic' or 'manual'
       automatic: {
-        sortBy: 'stars', // Sort projects by 'stars' or 'updated'
+        sortBy: 'updated', // Sort projects by 'stars' or 'updated'
         limit: 8, // How many projects to display.
         exclude: {
           forks: false, // Forked projects will not be displayed if set to true.
@@ -25,7 +25,7 @@ const CONFIG = {
       },
       manual: {
         // Properties for manually specifying projects
-        projects: ['arifszn/gitprofile', 'arifszn/pandora'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
+        projects:['YashasaveeKesarwani99/chat-app-flipkart', 'YashasaveeKesarwani99/user-inventory', 'YashasaveeKesarwani99/raster-playground', 'YashasaveeKesarwani99/adrenaline', 'YashasaveeKesarwani99/project-management-app'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
       },
     },
     external: {
@@ -33,33 +33,33 @@ const CONFIG = {
       // To hide the `External Projects` section, keep it empty.
       projects: [
         {
-          title: 'Project Name',
+          title: 'Project Management App',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+            'DEVELOPED A FULL STACK WEB APP ENABLiNG EFFiCiENT TRACKiNG OF PROJECT PROGRESS, USER MANAGEMENT AND DEADLiNE MONiTORiNG.'.toLowerCase(),
           imageUrl:
             'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
+          link: 'https://github.com/YashasaveeKesarwani99/project-management-app',
         },
         {
-          title: 'Project Name',
+          title: 'Raster Playground',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+            'ENHANCiNG UI OF AN iN‐HOUSE OPEN‐SOURCE PROJECT HOSTED BY BLUE SKY ANALYTiCS TO SHARPEN MY GIS AND UI SKiLLS.'.toLocaleLowerCase(),
           imageUrl:
             'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
+          link: 'https://github.com/YashasaveeKesarwani99/project-management-app',
         },
       ],
     },
   },
   seo: {
-    title: 'Portfolio of Ariful Alam',
+    title: 'Portfolio of Yashasavee Kesarwani',
     description: '',
     imageURL: '',
   },
   social: {
-    linkedin: 'ariful-alam',
-    twitter: 'arif_szn',
-    mastodon: 'arifszn@mastodon.social',
+    linkedin: 'yashasavee-kesarwani-962902193',
+    twitter: '',
+    mastodon: '',
     researchGate: '',
     facebook: '',
     instagram: '',
@@ -69,97 +69,109 @@ const CONFIG = {
     udemy: '',
     dribbble: '',
     behance: '',
-    medium: 'arifszn',
-    dev: 'arifszn',
+    medium: '',
+    dev: 'yashasaveekesarwani99',
     stackoverflow: '', // example: '1/jeff-atwood'
     skype: '',
     telegram: '',
-    website: 'https://www.arifszn.com',
+    website: '',
     phone: '',
-    email: 'arifulalamszn@gmail.com',
+    email: 'yashasvikesarwani1@gmail.com',
   },
   resume: {
     fileUrl:
-      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
+      'https://drive.google.com/file/d/1j9zuyRnLP09HKUWpt3AHKpdu8lMdV0Wr/view?usp=sharing', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
-    'PHP',
-    'Laravel',
-    'JavaScript',
-    'React.js',
-    'Node.js',
-    'Nest.js',
-    'MySQL',
-    'PostgreSQL',
-    'Git',
-    'Docker',
-    'PHPUnit',
+    'HTML',
     'CSS',
-    'Antd',
-    'Tailwind',
+    'JavaScript',
+    'Typescript',
+    'ReactJS',
+    'NodeJS',
+    'Component libraries - Antd, MaterialUI, etc',
+    'CSS libraries - Tailwind',
+    'SASS',
+    'Design System',
+    'Software Architecture',
+    'OOPS',
+    'Functional Programming',
   ],
   experiences: [
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'September 2021',
+      company: 'Karbon',
+      position: 'Software Engineer - Frontend',
+      from: 'October 2023',
       to: 'Present',
-      companyLink: 'https://example.com',
+      companyLink: 'https://www.linkedin.com/company/karbonbusiness/',
     },
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'July 2019',
-      to: 'August 2021',
-      companyLink: 'https://example.com',
+      company: 'Blue Sky Analytics',
+      position: 'Software Engineer - Frontend',
+      from: 'October 2022',
+      to: 'October 2023',
+      companyLink: 'https://www.linkedin.com/company/blueskyhq/',
     },
-  ],
-  certifications: [
     {
-      name: 'Lorem ipsum',
-      body: 'Lorem ipsum dolor sit amet',
-      year: 'March 2022',
-      link: 'https://example.com',
+      company: 'Outofbox',
+      position: 'Frontend Developer',
+      from: 'February 2022',
+      to: 'October 2023',
+      companyLink: 'https://www.linkedin.com/company/outofbox-advertising/',
+    },
+    {
+      company: 'Zartek Technologies',
+      position: 'React Developer - Intern',
+      from: 'July 2021',
+      to: 'February 2022',
+      companyLink: 'https://www.linkedin.com/company/zartek-tech/',
     },
   ],
+  // certifications: [
+  //   {
+  //     name: 'Triplebyte Certified',
+  //     body: 'credentialID - QydVAmI',
+  //     year: 'September 2022',
+  //     link: 'https://triplebyte.com/tb/yashasavee-kesarwani-dr4ki7v/certificate',
+  //   },
+  // ],
   educations: [
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2015',
-      to: '2019',
+      institution: 'Chitkara University',
+      degree: 'BE-CSE',
+      from: '9.78',
+      to: '10',
     },
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2012',
-      to: '2014',
+      institution: 'St. Josephs College',
+      degree: 'Intercollege',
+      from: '90.5',
+      to: '100',
     },
   ],
   publications: [
     {
-      title: 'Publication Title',
+      title: 'Blogspot',
       conferenceName: '',
-      journalName: 'Journal Name',
-      authors: 'John Doe, Jane Smith',
-      link: 'https://example.com',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+      journalName: 'The Art of System Design',
+      authors: 'self',
+      link: 'https://godspeed-engineering-stuff.blogspot.com/2024/06/the-art-of-system-design-crafting.html',
+      description:'Designing the front end of a web application is akin to orchestrating a symphony. Each component must work in harmony to deliver an engaging, seamless user experience. While the backend handles data processing and business logic, the frontend is the face of your application—the interface through which users interact. A well-designed frontend not only makes your app visually appealing but also intuitive and efficient. Lets dive into the theoretical aspects of frontend system design, exploring the key principles and components.',
     },
     {
-      title: 'Publication Title',
-      conferenceName: 'Conference Name',
-      journalName: '',
-      authors: 'John Doe, Jane Smith',
-      link: 'https://example.com',
+      title: 'Blogspot',
+      conferenceName: '',
+      journalName: 'Designing a Robust System Architecture with React',
+      authors: 'self',
+      link: 'https://godspeed-engineering-stuff.blogspot.com/2024/06/designing-robust-system-architecture.html',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+'React, a popular JavaScript library for building user interfaces, has revolutionized frontend development. Its component-based architecture, efficient rendering with the virtual DOM, and a vibrant ecosystem make it a powerful tool for developing modern web applications. However, the success of a React application is not solely dependent on the library itself but also on the system architecture that underpins it. In this blog post, we will explore the theoretical aspects of designing a robust system architecture with React, ensuring scalability, maintainability, and performance.'
     },
   ],
   // Display articles from your medium or dev account. (Optional)
   blog: {
     source: 'dev', // medium | dev
-    username: 'arifszn', // to hide blog section, keep it empty
+    username: 'yashasaveekesarwani99', // to hide blog section, keep it empty
     limit: 2, // How many articles to display. Max is 10.
   },
   googleAnalytics: {
@@ -171,11 +183,11 @@ const CONFIG = {
     snippetVersion: 6,
   },
   themeConfig: {
-    defaultTheme: 'lofi',
+    defaultTheme: 'synthwave',
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode
-    disableSwitch: false,
+    disableSwitch: true,
 
     // Should use the prefers-color-scheme media-query,
     // using user system preferences, instead of the hardcoded defaultTheme
@@ -234,11 +246,11 @@ const CONFIG = {
   },
 
   // Optional Footer. Supports plain text or HTML.
-  footer: `Made with <a 
-      class="text-primary" href="https://github.com/arifszn/gitprofile"
-      target="_blank"
-      rel="noreferrer"
-    >GitProfile</a> and ❤️`,
+  // footer: `Made with <a 
+  //     class="text-primary" href="https://github.com/arifszn/gitprofile"
+  //     target="_blank"
+  //     rel="noreferrer"
+  //   >GitProfile</a> and ❤️`,
 
   enablePWA: true,
 };
