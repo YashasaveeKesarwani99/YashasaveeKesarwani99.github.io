@@ -116,7 +116,7 @@ const CONFIG = {
       company: 'Outofbox',
       position: 'Frontend Developer',
       from: 'February 2022',
-      to: 'October 2023',
+      to: 'October 2022',
       companyLink: 'https://www.linkedin.com/company/outofbox-advertising/',
     },
     {
