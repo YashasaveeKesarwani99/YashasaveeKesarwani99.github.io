@@ -25,7 +25,12 @@ const CONFIG = {
       },
       manual: {
         // Properties for manually specifying projects
-        projects:['YashasaveeKesarwani99/chat-app-flipkart', 'YashasaveeKesarwani99/user-inventory', 'YashasaveeKesarwani99/raster-playground', 'YashasaveeKesarwani99/adrenaline', 'YashasaveeKesarwani99/project-management-app'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
+        projects: [
+          'YashasaveeKesarwani99/streamify',
+          'YashasaveeKesarwani99/recruiter-flow',
+          'YashasaveeKesarwani99/chat-app-flipkart',
+          'YashasaveeKesarwani99/user-inventory',
+        ], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
       },
     },
     external: {
@@ -156,7 +161,8 @@ const CONFIG = {
       journalName: 'The Art of System Design',
       authors: 'self',
       link: 'https://godspeed-engineering-stuff.blogspot.com/2024/06/the-art-of-system-design-crafting.html',
-      description:'Designing the front end of a web application is akin to orchestrating a symphony. Each component must work in harmony to deliver an engaging, seamless user experience. While the backend handles data processing and business logic, the frontend is the face of your application—the interface through which users interact. A well-designed frontend not only makes your app visually appealing but also intuitive and efficient. Lets dive into the theoretical aspects of frontend system design, exploring the key principles and components.',
+      description:
+        'Designing the front end of a web application is akin to orchestrating a symphony. Each component must work in harmony to deliver an engaging, seamless user experience. While the backend handles data processing and business logic, the frontend is the face of your application—the interface through which users interact. A well-designed frontend not only makes your app visually appealing but also intuitive and efficient. Lets dive into the theoretical aspects of frontend system design, exploring the key principles and components.',
     },
     {
       title: 'Blogspot',
@@ -165,7 +171,7 @@ const CONFIG = {
       authors: 'self',
       link: 'https://godspeed-engineering-stuff.blogspot.com/2024/06/designing-robust-system-architecture.html',
       description:
-'React, a popular JavaScript library for building user interfaces, has revolutionized frontend development. Its component-based architecture, efficient rendering with the virtual DOM, and a vibrant ecosystem make it a powerful tool for developing modern web applications. However, the success of a React application is not solely dependent on the library itself but also on the system architecture that underpins it. In this blog post, we will explore the theoretical aspects of designing a robust system architecture with React, ensuring scalability, maintainability, and performance.'
+        'React, a popular JavaScript library for building user interfaces, has revolutionized frontend development. Its component-based architecture, efficient rendering with the virtual DOM, and a vibrant ecosystem make it a powerful tool for developing modern web applications. However, the success of a React application is not solely dependent on the library itself but also on the system architecture that underpins it. In this blog post, we will explore the theoretical aspects of designing a robust system architecture with React, ensuring scalability, maintainability, and performance.',
     },
   ],
   // Display articles from your medium or dev account. (Optional)
@@ -246,7 +252,7 @@ const CONFIG = {
   },
 
   // Optional Footer. Supports plain text or HTML.
-  // footer: `Made with <a 
+  // footer: `Made with <a
   //     class="text-primary" href="https://github.com/arifszn/gitprofile"
   //     target="_blank"
   //     rel="noreferrer"
