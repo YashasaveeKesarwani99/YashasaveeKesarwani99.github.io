@@ -29,7 +29,8 @@ const CONFIG = {
           'YashasaveeKesarwani99/streamify',
           'YashasaveeKesarwani99/recruiter-flow',
           'YashasaveeKesarwani99/chat-app-flipkart',
-          'YashasaveeKesarwani99/user-inventory',
+          'YashasaveeKesarwani99/project-management-app',
+          'YashasaveeKesarwani99/adrenaline',
         ], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
       },
     },
