@@ -39,20 +39,20 @@ const CONFIG = {
       // To hide the `External Projects` section, keep it empty.
       projects: [
         {
-          title: 'Project Management App',
+          title: 'Streamify',
           description:
-            'DEVELOPED A FULL STACK WEB APP ENABLiNG EFFiCiENT TRACKiNG OF PROJECT PROGRESS, USER MANAGEMENT AND DEADLiNE MONiTORiNG.'.toLowerCase(),
+            "A frontend application that displays an analytics dashboard for a fictional music streaming service. The dashboard presents key metrics and data visualizations, allowing the service's management team to gain insights into user activity, revenue, and content performance. The goal was to build a functional and visually appealing dashboard that is both responsive and user-friendly.",
           imageUrl:
             'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://github.com/YashasaveeKesarwani99/project-management-app',
+          link: 'https://github.com/YashasaveeKesarwani99/streamify',
         },
         {
-          title: 'Raster Playground',
+          title: 'Blog Posts',
           description:
-            'ENHANCiNG UI OF AN iN‐HOUSE OPEN‐SOURCE PROJECT HOSTED BY BLUE SKY ANALYTiCS TO SHARPEN MY GIS AND UI SKiLLS.'.toLocaleLowerCase(),
+            'A web application made with typescript, react, express and development tools like storybook that lets user visualize, add and delete their blog posts.',
           imageUrl:
             'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://github.com/YashasaveeKesarwani99/project-management-app',
+          link: 'https://github.com/YashasaveeKesarwani99/recruiter-flow',
         },
       ],
     },
